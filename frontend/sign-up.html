@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen Garden - Food Ordering Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/sign-up-script.js"></script>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Kitchen Garden  </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/Matar-Paneer-1.jpg" alt="">
+            <div class="content">
+                <h3>Matar paneer</h3>
+                <span class="price"> &#8377 60/-</span>
+                <span class="quantity">qty : 1kg</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/ladyfinger.webp" alt="">
+            <div class="content">
+                <h3> Fried - Bhindi</h3>
+                <span class="price"> &#8377 40 /-</span>
+                <span class="quantity">qty : 1kg</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/pneer.jpg" alt="">
+            <div class="content">
+                <h3>paneer</h3>
+                <span class="price"> &#8377 150/-</span>
+                <span class="quantity">qty : 1kg</span>
+            </div>
+        </div>
+        <div class="total"> total :  &#8377 250/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+  <div class="content" style="height: 300px; display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    ">
+        <h3><span>Register </span> now</h3>
+        
+        <form id="register-form" >
+          <style>
+            .form-group {
+              margin-bottom: 1rem;
+              width: 250px;
+            }
+            .form-group label {
+              display: block;
+              margin-bottom: 0.5rem;
+            }
+            .form-group input {
+              display: block;
+              width: 100%;
+              padding: 0.5rem;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              text-transform: none;
+            }
+            .form-group input:focus {
+              outline: none;
+              border-color: #333;
+            }
+            .form-group input.error {
+              border-color: red;
+            }
+            .form-group small {
+              color: red;
+            }
+            button {
+              padding: 8px 12px;
+              border: none;
+              border-radius: 4px;
+              background-color: #333;
+              color: #fff;
+              cursor: pointer;
+              width: 100%;
+            }
+          </style>
+           <div class="form-group">
+            <input type="text" name="name" id="name" placeholder="Name" />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" id="email" placeholder="Enter email" />
+          </div>
+
+          <div class="form-group">
+            <input type="password" name="password" id="password" placeholder="Enter password" />
+          </div>
+
+          <button type="submit">Register</button>
+
+            <p style="font-size: 14px;">
+                Already have an account? <a href="login.html">Sign In</a>
+            </p>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Kitchen Garden <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Fresh And Organic Products For Your.</p>
+            <div class="share">
+                <a target="_blank" href="#" class="fab fa-facebook-f"> </a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +918146444206 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +918544728176 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> rrohitSaharma05@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Mohali , india - 140507 </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>  Rohit sharma </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
