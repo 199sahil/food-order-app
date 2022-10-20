@@ -27,3 +27,8 @@
 - `POST /api/contact-us` - saves the message in db (requires name, email,subject, message)
   - returns success message
 - `GET /api/list-contacts` - List all messages (FOR TESTING ONLY)
+### output
+![1](https://github.com/199sahil/food-order-app/blob/main/showcase-assets/1.PNG?raw=true)
+![2](https://github.com/199sahil/food-order-app/blob/main/showcase-assets/2.PNG?raw=true)
+![3](https://github.com/199sahil/food-order-app/blob/main/showcase-assets/3.PNG?raw=true)
+![4](https://github.com/199sahil/food-order-app/blob/main/showcase-assets/4.PNG?raw=true)
